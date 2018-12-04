@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="text_normal">#1a1a1a</color><!-- 正文字体颜色 -->
+    <color name="text_sub_main">#666666</color><!-- 首页待办事项字体颜色 -->
+    <color name="text_hint">#c4c4c4</color><!-- 提示信息字体颜色 -->
+    <color name="gray_bg">#f4f4f4</color>
+</resources>

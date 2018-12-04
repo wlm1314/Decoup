@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="10%p"
+    android:keyWidth="14.30%p"
+    android:verticalGap="6dp">
+    <!--
+        android:horizontalGap="0.50%p"
+        android:verticalGap="0.50%p"
+        NOTE When we add a horizontalGap in pixels, this interferes with keyWidth in percentages adding up to 100%
+        NOTE When we have a horizontalGap (on Keyboard level) of 0, this make the horizontalGap (on Key level) to move from after the key to before the key... (I consider this a bug)
+     -->
+
+    <Row>
+        <Key
+            android:codes="49"
+            android:horizontalGap="6dp"
+            android:keyLabel="1" />
+        <Key
+            android:codes="50"
+            android:horizontalGap="6dp"
+            android:keyLabel="2" />
+        <Key
+            android:codes="51"
+            android:horizontalGap="6dp"
+            android:keyLabel="3" />
+        <Key
+            android:codes="52"
+            android:horizontalGap="6dp"
+            android:keyLabel="4" />
+        <Key
+            android:codes="53"
+            android:horizontalGap="6dp"
+            android:keyLabel="5" />
+        <Key
+            android:codes="54"
+            android:horizontalGap="6dp"
+            android:keyLabel="6" />
+        <Key
+            android:codes="55"
+            android:horizontalGap="6dp"
+            android:keyLabel="7" />
+        <Key
+            android:codes="56"
+            android:horizontalGap="6dp"
+            android:keyLabel="8" />
+        <Key
+            android:codes="57"
+            android:horizontalGap="6dp"
+            android:keyLabel="9" />
+        <Key
+            android:codes="48"
+            android:horizontalGap="6dp"
+            android:keyLabel="0" />
+        <Key
+            android:codes="-5"
+            android:horizontalGap="6dp"
+            android:isRepeatable="true"
+            android:keyIcon="@mipmap/sym_keyboard_delete" />
+
+
+    </Row>
+    <Row>
+        <Key
+            android:codes="81"
+            android:horizontalGap="6dp"
+            android:keyLabel="Q"
+            android:popupCharacters="qQ"
+            android:popupKeyboard="@xml/popup" />
+        <Key
+            android:codes="87"
+            android:horizontalGap="6dp"
+            android:keyLabel="W"
+            android:popupCharacters="wW"
+            android:popupKeyboard="@xml/popup" />
+        <Key
+            android:codes="69"
+            android:horizontalGap="6dp"
+            android:keyLabel="E"
+            android:popupCharacters="eE"
+            android:popupKeyboard="@xml/popup" />
+        <Key
+            android:codes="82"
+            android:horizontalGap="6dp"
+            android:keyLabel="R"
+            android:popupCharacters="rR"
+            android:popupKeyboard="@xml/popup" />
+        <Key
+            android:codes="84"
+            android:horizontalGap="6dp"
+            android:keyLabel="T"
+            android:popupCharacters="tT"
+            android:popupKeyboard="@xml/popup" />
+        <Key
+            android:codes="89"
+            android:horizontalGap="6dp"
+            android:keyLabel="Y"
+            android:popupCharacters="yY"
+            android:popupKeyboard="@xml/popup" />
+        <Key
+            android:codes="85"
+            android:horizontalGap="6dp"
+            android:keyLabel="U"
+            android:popupCharacters="uU"
+            android:popupKeyboard="@xml/popup" />
+        <Key
+            android:codes="73"
+            android:horizontalGap="6dp"
+            android:keyLabel="I"
+            android:popupCharacters="iI"
+            android:popupKeyboard="@xml/popup" />
+        <Key
+            android:codes="79"
+            android:horizontalGap="6dp"
+            android:keyLabel="O"
+            android:popupCharacters="oO"
+            android:popupKeyboard="@xml/popup" />
+        <Key
+            android:codes="80"
+            android:horizontalGap="6dp"
+            android:keyLabel="P"
+            android:popupCharacters="pP"
+            android:popupKeyboard="@xml/popup" />
+        <Key
+            android:codes="55002"
+            android:horizontalGap="6dp"
+            android:isRepeatable="true"
+            android:keyIcon="@mipmap/sym_keyboard_left" />
+
+    </Row>
+    <Row>
+        <Key
+            android:codes="65"
+            android:horizontalGap="6dp"
+            android:keyLabel="A"
+            android:popupCharacters="aA"
+            android:popupKeyboard="@xml/popup" />
+        <Key
+            android:codes="83"
+            android:horizontalGap="6dp"
+            android:keyLabel="S"
+            android:popupCharacters="sS"
+            android:popupKeyboard="@xml/popup" />
+        <Key
+            android:codes="68"
+            android:horizontalGap="6dp"
+            android:keyLabel="D"
+            android:popupCharacters="dD"
+            android:popupKeyboard="@xml/popup" />
+        <Key
+            android:codes="70"
+            android:horizontalGap="6dp"
+            android:keyLabel="F"
+            android:popupCharacters="fF"
+            android:popupKeyboard="@xml/popup" />
+        <Key
+            android:codes="71"
+            android:horizontalGap="6dp"
+            android:keyLabel="G"
+            android:popupCharacters="gG"
+            android:popupKeyboard="@xml/popup" />
+        <Key
+            android:codes="73"
+            android:horizontalGap="6dp"
+            android:keyLabel="H"
+            android:popupCharacters="hH"
+            android:popupKeyboard="@xml/popup" />
+        <Key
+            android:codes="74"
+            android:horizontalGap="6dp"
+            android:keyLabel="J"
+            android:popupCharacters="jJ"
+            android:popupKeyboard="@xml/popup" />
+        <Key
+            android:codes="75"
+            android:horizontalGap="6dp"
+            android:keyLabel="K"
+            android:popupCharacters="kK"
+            android:popupKeyboard="@xml/popup" />
+        <Key
+            android:codes="76"
+            android:horizontalGap="6dp"
+            android:keyLabel="L"
+            android:popupCharacters="lL"
+            android:popupKeyboard="@xml/popup" />
+
+        <Key
+            android:codes="55003"
+            android:horizontalGap="6dp"
+            android:isRepeatable="true"
+            android:keyIcon="@mipmap/sym_keyboard_right" />
+    </Row>
+    <Row>
+
+        <Key
+            android:codes="90"
+            android:horizontalGap="6dp"
+            android:keyLabel="Z"
+            android:popupCharacters="zZ" />
+        <Key
+            android:codes="88"
+            android:horizontalGap="6dp"
+            android:keyLabel="X"
+            android:popupCharacters="xX" />
+        <Key
+            android:codes="67"
+            android:horizontalGap="6dp"
+            android:keyLabel="C"
+            android:popupCharacters="cC" />
+        <Key
+            android:codes="86"
+            android:horizontalGap="6dp"
+            android:keyLabel="V"
+            android:popupCharacters="vV" />
+        <Key
+            android:codes="66"
+            android:horizontalGap="6dp"
+            android:keyLabel="B"
+            android:popupCharacters="bB" />
+        <Key
+            android:codes="78"
+            android:horizontalGap="6dp"
+            android:keyLabel="N"
+            android:popupCharacters="nN" />
+        <Key
+            android:codes="77"
+            android:horizontalGap="6dp"
+            android:keyLabel="M"
+            android:popupCharacters="Mm" />
+    </Row>
+</Keyboard>
